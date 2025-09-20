@@ -1,0 +1,29 @@
+{
+"manifest_version": 3,
+"name": "AI Writing Assistant",
+"version": "1.0",
+"description": "A Chrome Extension that helps with writing by using AI models for rewriting, proofreading, and content generation.",
+"permissions": [
+"activeTab",
+"storage"
+],
+"background": {
+"service_worker": "scripts/background.js"
+},
+"action": {
+"default_popup": "popup.html",
+"default_icon": {
+"16": "images/icon16.png",
+"48": "images/icon48.png",
+"128": "images/icon128.png"
+}
+},
+"host_permissions": [
+"https://api.openai.com/*"  // Adjust based on which API service you are using
+],
+"icons": {
+"16": "images/icon16.png",
+"48": "images/icon48.png",
+"128": "images/icon128.png"
+}
+}
