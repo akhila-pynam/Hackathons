@@ -19,7 +19,7 @@
 }
 },
 "host_permissions": [
-"https://api.openai.com/*"  // Adjust based on which API service you are using
+"https://api.openai.com/*" 
 ],
 "icons": {
 "16": "images/icon16.png",
